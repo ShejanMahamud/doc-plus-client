@@ -2,7 +2,7 @@
 import React from "react";
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import { IoIosArrowDown } from "react-icons/io";
-import HeadingText from "@/Utils/HeadingText";
+import HeadingText from "@/components/HeadingText";
 
 export default function Faq() {
 

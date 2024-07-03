@@ -6,7 +6,7 @@ const HeadingText = ({ title, des,className }) => {
       <div className="px-6 py-2 rounded-full border border-[#4D4C7B] bg-transparent text-[#020043]">
         <span>{title}</span>
       </div>
-      <h1 className={`text-[#020043] font-semibold text-[36px] ${className}`}>{des}</h1>
+      <h1 className={`text-[#020043] font-semibold lg:text-[36px] text-[28px] ${className}`}>{des}</h1>
     </div>
   )
 }

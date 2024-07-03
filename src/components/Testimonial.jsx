@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import HeadingText from '@/Utils/HeadingText';
+import HeadingText from '@/components/HeadingText';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
