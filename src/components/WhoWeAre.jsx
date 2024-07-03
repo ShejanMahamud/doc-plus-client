@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md'
 
 const WhoWeAre = () => {
   return (
-    <div className='w-[80%] mx-auto grid grid-cols-2 row-auto items-center gap-10 py-28'>
+    <div className='w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 row-auto items-center gap-10 py-28'>
          <div className='w-full flex flex-col items-start gap-5'>
             {/* <HeadingText title={'Services'} des={'Empowering Health, Enriching Lives'}/> */}
             <div className="flex flex-col items-start gap-5">
@@ -20,7 +20,7 @@ const WhoWeAre = () => {
             </button>
         </div>
         <div className={`w-full bg-[url('https://i.ibb.co/rpF3NKD/Rectangle-24.png')] h-[450px] bg-cover bg-no-repeat bg-center rounded-3xl relative`}>
-            <div className='px-6 py-10 rounded-3xl flex flex-col items-start gap-2 bg-[#343268] absolute w-[70%] -bottom-10 -left-20'>
+            <div className='px-6 py-10 rounded-3xl flex flex-col items-start gap-2 bg-[#343268] absolute lg:w-[70%] w-[90%] lg:-bottom-10 -bottom-20 lg:-left-20 -left-5 '>
                 <h1 className='text-[26px] text-white  font-medium'>Our mission is simple</h1>
                 <p className='text-white opacity-80'>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
             </div>

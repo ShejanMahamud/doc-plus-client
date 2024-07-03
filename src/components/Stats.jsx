@@ -4,11 +4,11 @@ import {Avatar, AvatarGroup} from "@nextui-org/react";
 
 const Stats = () => {
   return (
-    <div className='p-10 w-[80%] mx-auto flex flex-col items-center relative'>
-        <h1 className='text-[#020043] font-semibold text-[48px] text-center absolute bottom-0 top-0 z-50'>
+    <div className='lg:p-10 p-5 lg:w-[80%] w-[90%] mx-auto flex flex-col items-center relative'>
+        <h1 className='text-[#020043] font-semibold lg:text-[48px] text-[24px] text-center lg:absolute bottom-0 top-0 z-50 mb-5 lg:mb-0'>
         Comprehensive Care <br/> for Every Patient
         </h1>
-        <div className='w-full grid grid-cols-5 row-auto items-end gap-5'>
+        <div className='w-full grid lg:grid-cols-5 grid-cols-1 row-auto items-end gap-5'>
             <div className='w-full p-5 h-[320px] flex flex-col rounded-3xl items-center justify-end gap-10 border border-[#02004333] border-opacity-20 bg-[#FBFBFB]'>
                 <div className='flex flex-col items-start w-full gap-2'>
                 <h1 className='text-3xl text-[40px] text-[#020043] font-semibold'>90%</h1>

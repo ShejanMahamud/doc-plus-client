@@ -4,7 +4,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md'
 
 const Service = () => {
   return (
-    <div className='w-[80%] mx-auto grid grid-cols-2 row-auto items-center gap-x-8 gap-y-16 py-28'>
+    <div className='w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 row-auto items-center gap-x-8 gap-y-16 py-28'>
         <div className='w-full flex flex-col items-start gap-5'>
             {/* <HeadingText title={'Services'} des={'Empowering Health, Enriching Lives'}/> */}
             <div className="flex flex-col items-start gap-5">
@@ -22,7 +22,7 @@ const Service = () => {
         {
             services.map((service,index)=> (
 <div key={index} className="w-full bg-cover bg-no-repeat rounded-3xl h-[400px] relative" style={{ backgroundImage: `url(${service?.bgImage})` }}>
-            <div className='bg-[#020043] h-[150px] bg-opacity-60 rounded-3xl p-5 absolute w-[60%] flex items-end gap-2 left-4 bottom-4'>
+            <div className='bg-[#020043] lg:h-[150px] h-[200px] bg-opacity-60 rounded-3xl p-5 absolute lg:w-[60%] w-[80%] flex items-end gap-2 left-4 bottom-4'>
                 <div className='flex flex-col gap-2 text-white'>
                     <h1 className='font-semibold text-xl'>{service?.title}</h1>
                     <p className='text-xs'>{service?.description}</p>

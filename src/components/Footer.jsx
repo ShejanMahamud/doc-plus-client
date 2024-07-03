@@ -19,27 +19,27 @@ const footerLinks2 = [
 
 const Footer = () => {
   return (
-    <div className='bg-[#020043] px-28 w-full grid grid-cols-4 gap-10 py-20'>
+    <div className='bg-[#020043] lg:px-28 px-14 w-full grid lg:grid-cols-4 grid-cols-1 gap-10 lg:py-20 py-10'>
       <div className='flex flex-col items-start gap-5 text-[#FFFFF5]'>
         <Image src='https://gist.github.com/ShejanMahamud/9e5723014b301f670f3bfdb52bd7bafe/raw/f6cf3c6458eb8c47abc339fd7a8dfbc7a608427c/logo.svg' alt='logo.png' width={125} height={33} />
         <p className='opacity-80'>123 Main Street Anytown, USA <br /> Postal Code: 12345</p>
         <p className='opacity-80'>Support: support@oyolloo.com <br /> (Available: 10:00am to 07:00pm)</p>
       </div>
-      <div className='flex w-full items-center flex-col'>
+      <div className='flex w-full lg:items-center items-start  flex-col'>
       <div className='flex flex-col items-start gap-5'>
         {footerLinks1.map(({ href, label }) => (
           <Link key={href} href={href} className='text-[#FFFFF5] font-semibold'>{label}</Link>
         ))}
       </div>
       </div>
-      <div className='flex w-full items-center flex-col'>
+      <div className='flex w-full lg:items-center items-start flex-col'>
       <div className='flex flex-col items-start gap-5'>
         {footerLinks2.map(({ href, label }) => (
           <Link key={href} href={href} className='text-[#FFFFF5] font-semibold'>{label}</Link>
         ))}
       </div>
       </div>
-      <div className='flex w-full items-center flex-col'>
+      <div className='flex w-full lg:items-center items-start flex-col'>
       <div className='flex flex-col items-start gap-5'>
         <span className='font-semibold text-[#FFFFF5]'>Follow Us</span>
         <div className='flex items-center gap-5 text-2xl'>
