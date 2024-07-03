@@ -44,7 +44,7 @@ const reviews = [
 
 const Testimonial = () => {
   return (
-    <div className='w-[80%] mx-auto pt-28'>
+    <div className='w-[80%] mx-auto lg:pt-28 pt-14'>
       <HeadingText title={'Testimonial'} des={'What they say about this'} className={'mb-10'} />
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper" breakpoints={{
         640: {

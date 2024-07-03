@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md'
 
 const WhoWeAre = () => {
   return (
-    <div className='w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 row-auto items-center gap-10 py-28'>
+    <div className='w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 row-auto items-center gap-10 lg:py-28 py-14'>
          <div className='w-full flex flex-col items-start gap-5'>
             {/* <HeadingText title={'Services'} des={'Empowering Health, Enriching Lives'}/> */}
             <div className="flex flex-col items-start gap-5">
