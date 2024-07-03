@@ -8,7 +8,7 @@ export default function Faq() {
 
   return (
 <div className="w-[80%] mx-auto py-28" >
-<HeadingText title={'Faq'} des={'Frequntly Asked Question'}/>
+<HeadingText title={'Faq'} des={'Frequntly Asked Question'}className={'mb-10'}/>
 <Accordion variant="splitted" defaultExpandedKeys={["1"]} className="text-[#020043]">
       <AccordionItem key="1" aria-label="Accordion 1" title=" What are your office hours?" className="font-medium text-[#020043] mb-3" indicator={<IoIosArrowDown className="text-[#323232]"/>}>
         <hr className="mb-3 border border-[#4D4C7B] border-opacity-20 w-full"/>

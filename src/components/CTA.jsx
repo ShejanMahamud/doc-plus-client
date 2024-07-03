@@ -5,8 +5,8 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const CTA = () => {
   return (
     <div className='relative h-screen w-full py-28 bg-[#fbfbfb]'>
-      <div className="absolute top-0 left-0 w-1/2 h-full bg-[url('https://i.ibb.co/0BdkXVG/Group-9174.png')] bg-no-repeat bg-left bg-cover"></div>
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('https://i.ibb.co/PztvTL2/Group-9173.png')] bg-no-repeat bg-right bg-cover"></div>
+      <div className="absolute top-0 left-0 w-1/2 h-full bg-[url('https://i.ibb.co/0BdkXVG/Group-9174.png')] bg-no-repeat bg-left bg-cover blur-[3px] opacity-60"></div>
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('https://i.ibb.co/PztvTL2/Group-9173.png')] bg-no-repeat bg-right bg-cover blur-[3px] opacity-60"></div>
       <div className="w-[80%] mx-auto bg-cta bg-no-repeat bg-center bg-cover h-[450px] rounded-3xl relative p-10">
         <Image src='https://gist.github.com/ShejanMahamud/9e5723014b301f670f3bfdb52bd7bafe/raw/f6cf3c6458eb8c47abc339fd7a8dfbc7a608427c/logo.svg' alt='logo.png' width={125} height={33} className='absolute top-10 right-10'/>
         <div className='flex flex-col items-start gap-5 justify-center w-full h-full'>

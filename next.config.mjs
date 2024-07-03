@@ -5,6 +5,7 @@ const nextConfig = {
           {
             protocol: 'https',
             hostname: 'gist.github.com',
+            hostname: 'i.ibb.co',
           },
         ],
       },

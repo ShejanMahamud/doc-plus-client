@@ -5,3 +5,14 @@
 .text-foreground{
   color: #020043;
 }
+.swiper-pagination-bullet-active {
+  background-color: #FFC637 !important;
+}
+
+.swiper-wrapper{
+  padding-bottom: 50px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 0px !important;
+}

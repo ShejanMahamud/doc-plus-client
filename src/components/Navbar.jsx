@@ -14,7 +14,7 @@ const navLinks = [
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className='w-full px-20 py-5 flex items-center justify-between'>
+    <nav className='w-full px-20 py-5 flex items-center justify-between bg-transparent absolute z-50'>
       <Image src='https://gist.github.com/ShejanMahamud/0fbd464dde64fea7f5a952bdad3e977a/raw/4d922340c68d7ea9a78e175761676b876f2d9faa/logo.svg' alt='logo.png' width={125} height={33} />
       <div className='flex items-center gap-10'>
         {navLinks.map(({ href, label }) => (

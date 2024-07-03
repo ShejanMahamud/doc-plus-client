@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner";
 import CTA from "@/components/CTA";
 import Faq from "@/components/Faq";
 import Service from "@/components/Service";
@@ -9,6 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+    <Banner/>
     <Stats/>
     <WhoWeAre/>
     <Service/>

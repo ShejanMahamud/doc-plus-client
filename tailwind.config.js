@@ -11,6 +11,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'cta': 'linear-gradient(to left, #0200434d, #020043), url("https://i.ibb.co/nDkSTTq/Rectangle-32.png")',
+       'banner': 'linear-gradient(179deg, rgba(0, 193, 157, 0.00) -25.42%, rgba(2, 0, 67, 0.47) 107.11%), url("https://i.ibb.co/RYnb9Dx/Rectangle-5.png")'
+
       },
     },
   },
